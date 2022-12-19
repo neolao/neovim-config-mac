@@ -14,20 +14,20 @@ set fenc=utf-8
 set nocompatible
 
 " Changer le dossier contenant les fichiers temporaires
-if isdirectory('~/.vim-backup') == 0
-  :silent !mkdir -p ~/.vim-backup >/dev/null 2>&1
+if isdirectory('~/.nvim-backup') == 0
+  :silent !mkdir -p ~/.nvim-backup >/dev/null 2>&1
 endif
-set backupdir=~/.vim-backup/
+set backupdir=~/.nvim-backup/
 set backup
-if isdirectory('~/.vim-swap') == 0
-  :silent !mkdir -p ~/.vim-swap >/dev/null 2>&1
+if isdirectory('~/.nvim-swap') == 0
+  :silent !mkdir -p ~/.nvim-swap >/dev/null 2>&1
 endif
-set directory=~/.vim-swap/
+set directory=~/.nvim-swap/
 if exists("+undofile")
-  if isdirectory('~/.vim-undo') == 0
-    :silent !mkdir -p ~/.vim-undo > /dev/null 2>&1
+  if isdirectory('~/.nvim-undo') == 0
+    :silent !mkdir -p ~/.nvim-undo > /dev/null 2>&1
   endif
-  set undodir=~/.vim-undo/
+  set undodir=~/.nvim-undo/
   set undofile
 endif
 
