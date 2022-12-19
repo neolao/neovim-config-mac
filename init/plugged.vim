@@ -33,6 +33,9 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
+" Whitespaces
+"Plug 'teto/vim-listchars'
+
 call plug#end()
 
 " Auto install
