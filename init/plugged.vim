@@ -33,8 +33,8 @@ Plug 'dyng/ctrlsf.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
-" Whitespaces
-"Plug 'teto/vim-listchars'
+" Code analyze
+Plug 'OmniSharp/omnisharp-vim'
 
 call plug#end()
 
