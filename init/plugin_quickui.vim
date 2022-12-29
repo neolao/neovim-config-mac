@@ -26,6 +26,9 @@ call quickui#menu#install('File', [
 call quickui#menu#install('OmniSharp', [
             \ [ "Status", ':OmniSharpStatus' ],
             \ [ "Log", ':OmniSharpOpenLog' ],
+            \ [ "--", '' ],
+            \ [ "Find usages", ':OmniSharpFindUsages' ],
+            \ [ "Find implementations", ':OmniSharpFindImplementations' ],
             \ ], '<auto>', 'cs')
 
 " set cursor to the last position

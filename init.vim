@@ -17,5 +17,11 @@ source ~/.config/nvim/init/plugin_table-mode.vim
 source ~/.config/nvim/init/plugin_tagbar.vim
 source ~/.config/nvim/init/plugin_ultisnips.vim
 source ~/.config/nvim/init/plugin_quickui.vim
+source ~/.config/nvim/init/plugin_omnisharp.vim
+source ~/.config/nvim/init/plugin_ale.vim
+source ~/.config/nvim/init/plugin_syntastic.vim
+source ~/.config/nvim/init/plugin_asyncomplete.vim
+source ~/.config/nvim/init/plugin_sharpenup.vim
+source ~/.config/nvim/init/plugin_fzf.vim
 
 source ~/.config/nvim/init/shortcuts.vim

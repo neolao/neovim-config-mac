@@ -42,7 +42,7 @@ set list listchars=tab:» ,trail:·,nbsp:×
 " Display line numbers
 set number
 
-" Indentat
+" Indentation
 set cindent
 "set cinoptions+={2
 set autoindent
@@ -181,6 +181,12 @@ endif
 " variable=/etc/<C-XF>
 "set isfname-==
 
+" Ouvrir un nouveau tab lors de la création d'un buffer
+set switchbuf+=newtab
+
+" The length of time NeoVim waits after you stop typing before it triggers the plugin
+set updatetime=1000
+
 " Languages
 filetype on
 filetype plugin on
@@ -192,7 +198,4 @@ au BufRead,BufNewFile *.css     set filetype=css
 au BufRead,BufNewFile *.scss    set filetype=scss
 au BufRead,BufNewFile *.php     set filetype=php
 
-" Auto completion
-set omnifunc=syntaxcomplete#Complete
-"set completeopt=longest,menuone
-"set completeopt=noinsert,menuone,noselect
+

@@ -13,6 +13,9 @@ Plug 'vim-airline/vim-airline-themes'
 Plug '~/.config/nvim/themes'
 Plug 'ryanoasis/vim-devicons'
 
+" Status line
+Plug 'maximbaz/lightline-ale'
+
 " Menus
 Plug 'skywind3000/vim-quickui'
 
@@ -35,6 +38,12 @@ Plug 'cloudhead/neovim-fuzzy'
 Plug 'dyng/ctrlsf.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+" Autocompletion
+Plug 'prabirshrestha/asyncomplete.vim'
+
 
 " To display and auto remove whitespace
 Plug 'ntpeters/vim-better-whitespace'
@@ -49,6 +58,10 @@ Plug 'dense-analysis/ale'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'ekalinin/Dockerfile.vim'
+
+" CSharp
+" Mappings, code-actions available flag and statusline integration
+Plug 'nickspoons/vim-sharpenup'
 
 " Markdown table
 Plug 'dhruvasagar/vim-table-mode'
