@@ -34,3 +34,7 @@ let NERDTreeShowHidden=1
 
 " Taille de l'explorateur
 let NERDTreeWinSize=30
+
+" Ouvrir
+autocmd VimEnter * NERDTreeToggle
+
